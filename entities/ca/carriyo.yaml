@@ -1,0 +1,85 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m4xet6nr60v3qec0qk133ws7
+  slug: carriyo
+  slug_aliases: []
+  name: Carriyo
+  domains:
+  - value: carriyo.com
+    role: primary
+    valid_from: '2026-10-14T14:59:39Z'
+  category: commerce
+profile:
+  summary: Carriyo provides shipping automation and post-checkout tools for retailers.
+  description: Carriyo provides carrier integrations, shipping automation, shipment
+    tracking and returns management.
+  links:
+    site: https://carriyo.com/
+sources:
+- source_id: src_f731e459f54eeb5653460254b4f852b34b6cc90b03b88c4cd2c232346cacc575
+  url: https://carriyo.com/pricing
+programs:
+- program_id: prg_01m4xet6nrnfp2k87hpcy8661e
+  program_slug: carriyo-startup-discount
+  program_slug_aliases: []
+  title: Carriyo startup discount
+  summary: Qualifying startups can apply for discounted Carriyo Pro subscriptions
+    over two years.
+  source_ids:
+  - src_f731e459f54eeb5653460254b4f852b34b6cc90b03b88c4cd2c232346cacc575
+offers:
+- offer_id: off_01m4xet6nr4ckpa3f3j54s12wy
+  program_id: prg_01m4xet6nrnfp2k87hpcy8661e
+  offer_slug: carriyo-pro-startup-discount
+  offer_slug_aliases: []
+  title: Carriyo Pro startup discount
+  summary: Qualifying startups receive up to 50% off Carriyo Pro in the first year
+    and 25% off in the second year.
+  lifecycle:
+    status: active
+    effective_from: '2026-10-14T14:59:39Z'
+  economics:
+    benefits:
+    - benefit_id: ben_01
+      kind: discount
+      applies_to: Carriyo Pro
+      description: Up to 50% off the first year.
+      percentage:
+        kind: up-to
+        basis_points: 5000
+      duration:
+        kind: exact
+        value: P1Y
+    - benefit_id: ben_02
+      kind: discount
+      applies_to: Carriyo Pro
+      description: 25% off the second year.
+      percentage:
+        kind: exact
+        basis_points: 2500
+      duration:
+        kind: exact
+        value: P1Y
+    consideration:
+      kind: variable
+      description: A paid Carriyo Pro subscription is required; pricing and eligibility
+        are confirmed by Carriyo.
+  eligibility:
+    rule:
+      criterion_id: cri_01
+      kind: manual
+      reason: not-machine-evaluable
+      statement: Qualifying startup; the pricing page does not publish detailed startup
+        eligibility criteria.
+  roles:
+    terms_authority_entity_id: ent_01m4xet6nr60v3qec0qk133ws7
+    access_operator_entity_id: ent_01m4xet6nr60v3qec0qk133ws7
+  access:
+    availability: public
+    method: form
+    url: https://carriyo.com/contact
+    instructions: Use the contact form linked by Apply for Startup Discount on the
+      pricing page.
+  source_ids:
+  - src_f731e459f54eeb5653460254b4f852b34b6cc90b03b88c4cd2c232346cacc575
+  terms_url: https://carriyo.com/pricing
