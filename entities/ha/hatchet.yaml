@@ -46,13 +46,13 @@ offers:
       description: Startup discount; amount and duration are not published.
     consideration:
       kind: variable
-      description: Pricing and program terms must be confirmed directly with Hatchet.
+      description: Startup discounts.
   eligibility:
     rule:
       criterion_id: cri_01
       kind: manual
       reason: not-machine-evaluable
-      statement: Startups.
+      statement: Do you offer startup discounts? Yes. Please reach out directly for details about our startup program.
   roles:
     terms_authority_entity_id: ent_01m4xcctrd6e9jnc602pwkev4k
     access_operator_entity_id: ent_01m4xcctrd6e9jnc602pwkev4k
