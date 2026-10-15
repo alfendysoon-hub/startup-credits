@@ -53,7 +53,7 @@ offers:
       criterion_id: cri_01
       kind: manual
       reason: not-machine-evaluable
-      statement: Eligible startup; detailed criteria must be confirmed with Hookdeck.
+      statement: Startup discount eligibility requirements are not specified on the cited pricing page; contact Hookdeck for details.
   roles:
     terms_authority_entity_id: ent_01m4xg3w9bjsz6hfbhz85dkb4e
     access_operator_entity_id: ent_01m4xg3w9bjsz6hfbhz85dkb4e
