@@ -69,8 +69,7 @@ offers:
       criterion_id: cri_01
       kind: manual
       reason: not-machine-evaluable
-      statement: Qualifying startup; the pricing page does not publish detailed startup
-        eligibility criteria.
+      statement: Qualifying startups.
   roles:
     terms_authority_entity_id: ent_01m4xet6nr60v3qec0qk133ws7
     access_operator_entity_id: ent_01m4xet6nr60v3qec0qk133ws7
