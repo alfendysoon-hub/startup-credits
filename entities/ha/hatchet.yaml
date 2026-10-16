@@ -47,6 +47,12 @@ offers:
     consideration:
       kind: variable
       description: Startup discounts.
+  eligibility:
+    rule:
+      criterion_id: cri_01
+      kind: manual
+      reason: not-machine-evaluable
+      statement: Hatchet asks interested applicants to reach out directly for details about its startup program.
   roles:
     terms_authority_entity_id: ent_01m4xcctrd6e9jnc602pwkev4k
     access_operator_entity_id: ent_01m4xcctrd6e9jnc602pwkev4k
